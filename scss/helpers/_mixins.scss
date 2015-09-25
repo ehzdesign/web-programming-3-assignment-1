@@ -1,0 +1,10 @@
+@mixin flex-center ($direction) {
+  @if $direction == "column" {
+    @extend %justify-center;
+  }
+
+  @else{
+    @extend %align-items--center;
+  }
+
+}

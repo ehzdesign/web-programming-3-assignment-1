@@ -1,10 +1,13 @@
-// @import "helpers/config";
-// @import "helpers/placeholders";
+@import "bourbon/bourbon";
 
-// @import "base/base";
-// @import "base/typography";
+@import "helpers/config";
+@import "helpers/placeholders";
+@import "helpers/mixins";
 
-// @import "partials/header";
+@import "base/base";
+@import "base/typography";
+
+@import "partials/header";
 // @import "partials/footer";
 
 // @import "partials/navigation";

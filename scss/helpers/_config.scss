@@ -1,1 +1,26 @@
-_variables.scss
+//THEME COLORS
+$white          : #fff;
+$porcelain      : #EDEFF0;
+$fountain-green : #53bbb4;
+$mako           : #3e474f;
+
+$blue-grey           : #90A4AE;
+
+
+// FONTS STACKS
+$font-family--primary: 'Nunito', Arial, Tahoma, sans-serif;
+$font-family--secondary: 'Open Sans', Arial, Helvetica, sans-serif;
+
+//FONT WEIGHTS
+$font-weight--light     : 300;
+$font-weight--normal    : 400;
+$font-weight--bold      : 700;
+
+//FONT COLORS
+$color-text--light: $blue-grey;
+
+// FUNCTIONAL NAMED COLORS
+$color-primary            :$white;
+$color-primary--dark      :$porcelain;
+$color-accent             :$fountain-green;
+$color-footer             :$mako;

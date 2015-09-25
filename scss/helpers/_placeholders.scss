@@ -1,2 +1,22 @@
+// flex placeholders
+%flex {
+  display: flex;
+}
+
+%justify-center{
+  justify-content: center;
+}
+
+%align-items--center{
+  align-items: center
+}
+
+%space-between{
+  justify-content: space-between;
+}
 
 
+// transition placeholders
+%transition-default{
+  transition: all .3s ease;
+}

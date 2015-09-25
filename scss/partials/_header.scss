@@ -1,1 +1,45 @@
-_header.scss
+/* HEADER STYLES */
+
+header{
+  @extend %flex;
+  @extend %space-between;
+  @include flex-center(row);
+  padding: em(20px) 2%;
+
+  p{
+    font-size: em(36px);
+    margin: 0;
+    color: $color-accent;
+  }
+}
+
+/* NAV STYLES */
+
+nav{
+  flex-basis: 50%;
+}
+
+.main-nav{
+  @extend %flex;
+  @extend %space-between;
+  padding-left: 0;
+
+  li{
+    display: inline-block;
+    text-transform: capitalize;
+  }
+}
+
+.main-nav a{
+  color: $color-text--light;
+  @extend %transition-default;
+
+  &:hover {
+    opacity: .6;
+  }
+}
+
+a.current-link{
+  color: $color-accent;
+}
+
