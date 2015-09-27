@@ -3,6 +3,14 @@
   display: flex;
 }
 
+%flex-column{
+  flex-direction: column;
+}
+
+%flex-row{
+  flex-direction: column;
+}
+
 %justify-center{
   justify-content: center;
 }
@@ -15,8 +23,30 @@
   justify-content: space-between;
 }
 
+%flex-wrap{
+  flex-wrap: wrap;
+}
+
+%space-between{
+  justify-content: space-between;
+}
 
 // transition placeholders
 %transition-default{
   transition: all .3s ease;
+}
+
+//text placeholders 
+%uppercase{
+  text-transform: uppercase;
+}
+
+
+//position
+%relative{
+  position: relative;
+}
+
+%absolute{
+  position: absolute;
 }

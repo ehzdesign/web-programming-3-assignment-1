@@ -1,0 +1,26 @@
+/* Course Objectives styles */
+
+#main-content{
+  @extend %flex;
+  width: 100vw;
+}
+
+#outline{
+  flex-grow: 1;
+  flex-basis: 100vw;
+}
+
+
+.outline-content{
+  width: 70%;
+}
+
+#development-icons{
+  // width: 50%;
+  // @extend %flex;
+  // @extend %flex-wrap;
+  // justify-content: space-between;
+
+
+
+}

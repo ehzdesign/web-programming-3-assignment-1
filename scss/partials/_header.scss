@@ -3,12 +3,13 @@
 header{
   @extend %flex;
   @extend %space-between;
-  @include flex-center(row);
-  padding: em(20px) 2%;
+  @include vertical-center(row);
+  padding: 0 2%;
 
-  p{
+  .logo a{
     font-size: em(36px);
     margin: 0;
+    font-weight: $font-weight--normal;
     color: $color-accent;
   }
 }
@@ -16,7 +17,7 @@ header{
 /* NAV STYLES */
 
 nav{
-  flex-basis: 50%;
+  flex-basis: calc(25em + 1vw);
 }
 
 .main-nav{
@@ -30,7 +31,9 @@ nav{
   }
 }
 
-.main-nav a{
+
+.main-nav a,
+.logo a{
   color: $color-text--light;
   @extend %transition-default;
 

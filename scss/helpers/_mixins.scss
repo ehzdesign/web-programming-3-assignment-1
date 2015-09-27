@@ -1,4 +1,4 @@
-@mixin flex-center ($direction) {
+@mixin vertical-center ($direction) {
   @if $direction == "column" {
     @extend %justify-center;
   }
