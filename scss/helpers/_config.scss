@@ -10,6 +10,8 @@ $pink           : #FD84B6;
 $pastel-blue    : #6AB8E6;
 $pastel-purple    : #A284FD;
 
+$flat-red       : #F56060;
+
 
 // FONTS STACKS
 $font-family--primary: 'Nunito', Arial, Tahoma, sans-serif;
@@ -22,6 +24,7 @@ $font-weight--bold      : 700;
 
 //FONT COLORS
 $color-text--light: $blue-grey;
+$color-text--dark:  shade($color-text--light, 5%);
 
 // FUNCTIONAL NAMED COLORS
 $color-primary            :$white;
@@ -31,3 +34,4 @@ $color-highlight--blue    :$pastel-blue;
 $color-highlight--purple    :$pastel-purple;
 $color-highlight--pink    :$pink;
 $color-footer             :$mako;
+$color-warn               :$flat-red;

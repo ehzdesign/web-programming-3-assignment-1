@@ -76,13 +76,19 @@ ul {
 }
 
 td, th {
-  padding: 0.5em 1em;
+  padding: 1em;
 }
 
 body {
   font-family: "Nunito", Arial, Tahoma, sans-serif;
   font-weight: 300;
   color: #90A4AE;
+}
+
+h1,
+h2,
+h3 {
+  color: #899ca5;
 }
 
 /* HEADER STYLES */
@@ -151,6 +157,7 @@ a.current-link {
 
 .title h1 {
   font-size: 4em;
+  color: #fff;
 }
 
 .title span {
@@ -200,7 +207,7 @@ a.current-link {
 .sidebar-menu__items:before {
   content: '■';
   color: #FD84B6;
-  margin-right: 10%;
+  margin-right: .5em;
 }
 
 .sidebar-menu__items:nth-child(2):before {
@@ -237,6 +244,7 @@ a.current-link {
   border-radius: 5px;
   text-align: left;
   text-transform: capitalize;
+  margin-top: 3em;
 }
 
 .schedule th {
@@ -270,6 +278,17 @@ a.current-link {
           flex-basis: 100%;
 }
 
-.outline-content {
-  width: 70%;
+.section-content {
+  width: 90%;
+}
+
+#note:before {
+  content: '*';
+  color: #F56060;
+  margin-right: .3em;
+}
+
+.first-word {
+  font-size: 1.1em;
+  font-weight: bold;
 }

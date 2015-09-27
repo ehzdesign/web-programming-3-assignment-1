@@ -1,0 +1,12 @@
+#note{
+  &:before{
+    content: '*';
+    color: $color-warn;
+    margin-right: .3em;
+  }
+}
+
+.first-word{
+  font-size: 1.1em;
+  font-weight: bold;
+}
