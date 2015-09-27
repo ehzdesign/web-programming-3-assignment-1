@@ -8,4 +8,9 @@ h1,
 h2,
 h3{
   color: $color-text--dark;
+  font-weight: $font-weight--bold;
+}
+
+p{
+  font-weight: $font-weight--light;
 }

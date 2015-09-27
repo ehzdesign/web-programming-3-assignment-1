@@ -6,11 +6,11 @@ $mako           : #3e474f;
 
 $blue-grey           : #90A4AE;
 
-$pink           : #FD84B6;
-$pastel-blue    : #6AB8E6;
-$pastel-purple    : #A284FD;
+$tickle-me-pink          : #FD84B6;
+$seagull    : #6AB8E6;
+$heliotrope    : #A284FD;
 
-$flat-red       : #F56060;
+$carnation       : #F56060;
 
 
 // FONTS STACKS
@@ -30,8 +30,8 @@ $color-text--dark:  shade($color-text--light, 5%);
 $color-primary            :$white;
 $color-primary--dark      :$porcelain;
 $color-accent             :$fountain-green;
-$color-highlight--blue    :$pastel-blue;
-$color-highlight--purple    :$pastel-purple;
-$color-highlight--pink    :$pink;
+$color-highlight--blue    :$seagull;
+$color-highlight--purple    :$heliotrope;
+$color-highlight--pink    :$tickle-me-pink;
 $color-footer             :$mako;
-$color-warn               :$flat-red;
+$color-warn               :$carnation;

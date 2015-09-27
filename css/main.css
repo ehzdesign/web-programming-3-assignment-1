@@ -83,6 +83,11 @@ h1,
 h2,
 h3 {
   color: #899ca5;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
 }
 
 /* HEADER STYLES */
@@ -128,7 +133,7 @@ a.current-link {
   color: #53bbb4;
 }
 
-/* Footer styles */
+/* FOOTER STYLES */
 #footer {
   background-color: #3e474f;
   height: 20vh;
@@ -149,7 +154,7 @@ a.current-link {
   display: block;
 }
 
-/* Intro title styles */
+/* INTRO TITLE STYLES */
 .title {
   color: #fff;
   z-index: 20;
@@ -169,7 +174,7 @@ a.current-link {
   padding-left: 1%;
 }
 
-/* Learn more button styles */
+/* LEARN MORE BUTTON STYLES */
 .learn-more {
   padding: 1em 2em;
   border: 2px solid #fff;
@@ -182,7 +187,7 @@ a.current-link {
   opacity: 0.7;
 }
 
-/* Sidebar styles */
+/* SIDEBAR STYLES */
 #sidebar {
   font-size: 1.2em;
   padding: 100px 3%;
@@ -230,20 +235,40 @@ a.current-link {
   color: #6AB8E6;
 }
 
-/* Table styles */
-#schedule .wrapper {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.schedule {
+/* TABLE STYLES */
+.table {
   border: 2px solid #bcc8ce;
   border-collapse: initial;
   border-radius: 5px;
   text-align: left;
   text-transform: capitalize;
   margin-top: 3em;
+}
+
+/* MAIN CONTENT SECTION STYLES */
+.main {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+}
+
+.section-content {
+  width: 90%;
+}
+
+/* SCHEDULE PAGE STYLES */
+#schedule .wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.first-word {
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 .schedule th {
@@ -267,27 +292,8 @@ a.current-link {
   color: #fea9cc;
 }
 
-/* Main Content area styles */
-.main {
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -webkit-flex-basis: 100%;
-      -ms-flex-preferred-size: 100%;
-          flex-basis: 100%;
-}
-
-.section-content {
-  width: 90%;
-}
-
 #note:before {
   content: '*';
   color: #F56060;
   margin-right: .3em;
-}
-
-.first-word {
-  font-size: 1.1em;
-  font-weight: bold;
 }

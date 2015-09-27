@@ -1,14 +1,45 @@
 /* SCHEDULE PAGE STYLES */
 
+#schedule .wrapper{
+  display: flex;
+  @extend %flex;
+  @extend %flex-column;
+}
+
+
+.first-word{
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.schedule{
+  th{
+    background-color: tint($color-accent, 10%);
+    color: white;
+  }
+
+  tbody{
+    vertical-align: top;
+  }
+
+  tr:nth-child(even){
+    background-color: tint($color-text--light, 90%);
+  }
+
+  td:nth-child(2){
+    color: $color-highlight--blue;
+  }
+
+  .due-date{
+    color: tint($color-highlight--pink, 30%);
+  }
+}
+
+
 #note{
   &:before{
     content: '*';
     color: $color-warn;
     margin-right: .3em;
   }
-}
-
-.first-word{
-  font-size: 1.1em;
-  font-weight: bold;
 }
