@@ -1,0 +1,35 @@
+#schedule .wrapper{
+  display: flex;
+  @extend %flex;
+  @extend %flex-column;
+}
+
+
+.schedule{
+  border: 2px solid tint($color-text--light, 40%);
+  border-collapse: initial;
+  border-radius: 5px;
+  text-align: left;
+  text-transform: capitalize;
+
+  th{
+    background-color: tint($color-accent, 10%);
+    color: white;
+  }
+
+  tbody{
+    vertical-align: top;
+  }
+
+  tr:nth-child(even){
+    background-color: tint($color-text--light, 90%);
+  }
+
+  td:nth-child(2){
+    color: #6AB8E6;
+  }
+
+  .due-date{
+    color: #F994BD;
+  }
+}

@@ -7,7 +7,7 @@ a{
 }
 
 section:not(#intro){
-  padding: 4em 5%;
+  padding: 4em 0;
 }
 
 ul{
@@ -18,5 +18,14 @@ ul{
 .wrapper{
   max-width: 80%;
   margin: 0 auto;
+  padding: 0 2%;
 
+}
+
+main{
+  @extend %flex;
+}
+
+td, th{
+  padding: .5em 1em;
 }

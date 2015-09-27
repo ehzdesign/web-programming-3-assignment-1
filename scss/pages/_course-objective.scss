@@ -1,13 +1,10 @@
 /* Course Objectives styles */
 
-#main-content{
-  @extend %flex;
-  width: 100vw;
-}
 
-#outline{
+
+.main{
   flex-grow: 1;
-  flex-basis: 100vw;
+  flex-basis: 100%;
 }
 
 

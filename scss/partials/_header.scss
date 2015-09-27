@@ -5,6 +5,7 @@ header{
   @extend %space-between;
   @include vertical-center(row);
   padding: 0 2%;
+  border-bottom: 2px solid $color-accent;
 
   .logo a{
     font-size: em(36px);

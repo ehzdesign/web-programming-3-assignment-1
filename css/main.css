@@ -1,11 +1,11 @@
 @charset "UTF-8";
-header, .main-nav, .title, #sidebar, #main-content {
+main, header, .main-nav, .title, #sidebar, #schedule .wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.title, #sidebar {
+.title, #sidebar, #schedule .wrapper {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
@@ -61,7 +61,7 @@ a {
 }
 
 section:not(#intro) {
-  padding: 4em 5%;
+  padding: 4em 0;
 }
 
 ul {
@@ -72,6 +72,11 @@ ul {
 .wrapper {
   max-width: 80%;
   margin: 0 auto;
+  padding: 0 2%;
+}
+
+td, th {
+  padding: 0.5em 1em;
 }
 
 body {
@@ -83,6 +88,7 @@ body {
 /* HEADER STYLES */
 header {
   padding: 0 2%;
+  border-bottom: 2px solid #53bbb4;
 }
 
 header .logo a {
@@ -169,9 +175,9 @@ a.current-link {
 #sidebar {
   font-size: 1.2em;
   padding: 100px 3%;
-  -webkit-flex-basis: 25%;
-      -ms-flex-preferred-size: 25%;
-          flex-basis: 25%;
+  -webkit-flex-basis: 20%;
+      -ms-flex-preferred-size: 20%;
+          flex-basis: 20%;
   background-color: #d8dadc;
 }
 
@@ -219,18 +225,49 @@ a.current-link {
   width: 100%;
 }
 
-/* Course Objectives styles */
-#main-content {
-  width: 100vw;
+#schedule .wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-#outline {
+.schedule {
+  border: 2px solid #bcc8ce;
+  border-collapse: initial;
+  border-radius: 5px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.schedule th {
+  background-color: #64c2bc;
+  color: white;
+}
+
+.schedule tbody {
+  vertical-align: top;
+}
+
+.schedule tr:nth-child(even) {
+  background-color: #f4f6f7;
+}
+
+.schedule td:nth-child(2) {
+  color: #6AB8E6;
+}
+
+.schedule .due-date {
+  color: #F994BD;
+}
+
+/* Course Objectives styles */
+.main {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  -webkit-flex-basis: 100vw;
-      -ms-flex-preferred-size: 100vw;
-          flex-basis: 100vw;
+  -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
 }
 
 .outline-content {
