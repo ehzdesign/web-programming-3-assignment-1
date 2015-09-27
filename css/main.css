@@ -69,6 +69,11 @@ ul {
   margin: 0;
 }
 
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 body {
   font-family: "Nunito", Arial, Tahoma, sans-serif;
   font-weight: 300;
@@ -206,6 +211,12 @@ a.current-link {
 
 .sidebar-menu__items:nth-child(3):hover {
   color: #6AB8E6;
+}
+
+#footer {
+  background-color: #3e474f;
+  height: 20vh;
+  width: 100%;
 }
 
 /* Course Objectives styles */
