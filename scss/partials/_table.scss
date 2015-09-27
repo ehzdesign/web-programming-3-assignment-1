@@ -26,10 +26,10 @@
   }
 
   td:nth-child(2){
-    color: #6AB8E6;
+    color: $color-highlight--blue;
   }
 
   .due-date{
-    color: #F994BD;
+    color: tint($color-highlight--pink, 30%);
   }
 }

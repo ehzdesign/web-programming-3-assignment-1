@@ -24,32 +24,32 @@
   @extend %transition-default;
 
   &:hover{
-    color: #FD84B6;
+    color: $color-highlight--pink;
   }
 
   &:before{
     content: '■';
-    color: #FD84B6;
+    color: $color-highlight--pink;
     margin-right: 10%;
   }
 
   &:nth-child(2){
     &:before {
-        color: #A284FD;
+        color: $color-highlight--purple;
     }
 
     &:hover{
-      color: #A284FD;
+      color: $color-highlight--purple;
     }
   }
 
   &:nth-child(3){
     &:before{
-    color: #6AB8E6;
+    color: $color-highlight--blue;
     }
 
     &:hover{
-      color: #6AB8E6;
+      color: $color-highlight--blue;
     }
   }
 

@@ -6,6 +6,10 @@ $mako           : #3e474f;
 
 $blue-grey           : #90A4AE;
 
+$pink           : #FD84B6;
+$pastel-blue    : #6AB8E6;
+$pastel-purple    : #A284FD;
+
 
 // FONTS STACKS
 $font-family--primary: 'Nunito', Arial, Tahoma, sans-serif;
@@ -23,4 +27,7 @@ $color-text--light: $blue-grey;
 $color-primary            :$white;
 $color-primary--dark      :$porcelain;
 $color-accent             :$fountain-green;
+$color-highlight--blue    :$pastel-blue;
+$color-highlight--purple    :$pastel-purple;
+$color-highlight--pink    :$pink;
 $color-footer             :$mako;
