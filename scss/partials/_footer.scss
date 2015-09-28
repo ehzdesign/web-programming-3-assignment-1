@@ -2,6 +2,28 @@
 
 #footer{
   background-color: $color-footer;
-  height: 20vh;
+  padding: 2em 2%;
+  // width: 100%;
+}
+
+.footer-links{
   width: 100%;
+
+  a{
+    color: tint($color-footer, 80%);
+    @extend %transition-default;
+
+    &:hover{
+      color: tint($color-footer, 50%);
+    }
+  }
+
+  ul{
+    @extend %flex;
+    @extend %flex-wrap;
+    @extend %flex-column;
+    height: 4em;
+    justify-content: space-between;
+  }
+
 }
