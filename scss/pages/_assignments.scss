@@ -1,0 +1,41 @@
+/* ASSIGNMENT SECTION STYLES STARTS */
+
+#assignments .wrapper{
+  display: flex;
+  @extend %flex;
+  @extend %flex-column;
+}
+
+.assignment{
+  align-self: center;
+  width: 40em;
+  text-align: center;
+
+  tr:first-of-type{
+    background-color: tint($color-text--light, 90%);
+  }
+}
+
+caption{
+  background-color: #FB995F;
+  border-radius: 5px;
+  color: $color-primary;
+  padding: 1em 0;
+  margin-bottom: 5px;
+}
+
+
+/* ASSIGNMENT SECTION STYLES ENDS */
+
+
+.highlight-variant--1{
+  background-color: #A18FDA;
+}
+
+.highlight-variant--2{
+  background-color: #5ACEDA;
+}
+
+.highlight-variant--3{
+  background-color: #FD8484;
+}

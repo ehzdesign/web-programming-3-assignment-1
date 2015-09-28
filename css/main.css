@@ -1,11 +1,11 @@
 @charset "UTF-8";
-main, header, .main-nav, .title, #sidebar, #schedule .wrapper {
+main, header, .main-nav, .title, #sidebar, #schedule .wrapper, #assignments .wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.title, #sidebar, #schedule .wrapper {
+.title, #sidebar, #schedule .wrapper, #assignments .wrapper {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
@@ -245,6 +245,10 @@ a.current-link {
   margin-top: 3em;
 }
 
+.due-date {
+  color: #fea9cc;
+}
+
 /* MAIN CONTENT SECTION STYLES */
 .main {
   -webkit-flex-grow: 1;
@@ -288,12 +292,48 @@ a.current-link {
   color: #6AB8E6;
 }
 
-.schedule .due-date {
-  color: #fea9cc;
-}
-
 #note:before {
   content: '*';
   color: #F56060;
   margin-right: .3em;
+}
+
+/* ASSIGNMENT SECTION STYLES STARTS */
+#assignments .wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.assignment {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  width: 40em;
+  text-align: center;
+}
+
+.assignment tr:first-of-type {
+  background-color: #f4f6f7;
+}
+
+caption {
+  background-color: #FB995F;
+  border-radius: 5px;
+  color: #fff;
+  padding: 1em 0;
+  margin-bottom: 5px;
+}
+
+/* ASSIGNMENT SECTION STYLES ENDS */
+.highlight-variant--1 {
+  background-color: #A18FDA;
+}
+
+.highlight-variant--2 {
+  background-color: #5ACEDA;
+}
+
+.highlight-variant--3 {
+  background-color: #FD8484;
 }
