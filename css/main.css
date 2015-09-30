@@ -1,11 +1,11 @@
 @charset "UTF-8";
-main, header, .main-nav, .footer-links ul, .title, #sidebar, #schedule .wrapper, #assignments .wrapper, #contact .wrapper, #contact-form {
+main, header, .main-nav, .footer__page-links, .footer-links:nth-child(2), .footer-links__group, .title, #sidebar, #schedule .wrapper, #assignments .wrapper, #contact .wrapper, #contact-form {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer-links ul, .title, #sidebar, #schedule .wrapper, #assignments .wrapper, #contact .wrapper {
+.footer__page-links, .title, #sidebar, #schedule .wrapper, #assignments .wrapper, #contact .wrapper {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
@@ -23,20 +23,20 @@ header {
           align-items: center;
 }
 
-.footer-links ul {
+.footer__page-links, .footer-links:nth-child(2) {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
 }
 
-header, .main-nav {
+header, .main-nav, .footer-links:nth-child(2) {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 .main-nav a,
-.logo a, .footer-links a, .sidebar-menu__items, #contact-form input[type="submit"] {
+.logo a, .footer-links a:not(.humber-logo--footer), .humber-logo--footer, .sidebar-menu__items, #contact-form input[type="submit"] {
   transition: all 0.3s ease;
 }
 
@@ -56,6 +56,9 @@ header, .main-nav {
   text-align: center;
 }
 
+/*===================================
+=            BASE STYLES            =
+===================================*/
 * {
   box-sizing: border-box;
 }
@@ -84,6 +87,7 @@ td, th {
   padding: .7em;
 }
 
+/*=====  End of BASE STYLES  ======*/
 body {
   font-family: "Nunito", Arial, Tahoma, sans-serif;
   font-weight: 300;
@@ -145,31 +149,68 @@ a.current-link {
   color: #53bbb4;
 }
 
-/* FOOTER STYLES */
+/*=====================================
+=            FOOTER STYLES            =
+=====================================*/
 #footer {
   background-color: #3e474f;
-  padding: 2em 2%;
+  padding: 2em 5%;
 }
 
 .footer-links {
   width: 100%;
+  text-align: center;
 }
 
-.footer-links a {
+.footer-links a:not(.humber-logo--footer) {
   color: #d8dadc;
 }
 
-.footer-links a:hover {
+.footer-links a:not(.humber-logo--footer):hover {
   color: #9fa3a7;
 }
 
-.footer-links ul {
+.footer__page-links {
   height: 4em;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
+@media screen and (max-width: 588px) {
+  .footer__page-links {
+    margin-top: 1em;
+  }
+}
+
+.footer-links__group__items {
+  margin-left: 1em;
+  font-size: 1.5em;
+}
+
+.footer-links:nth-child(2) {
+  margin-top: 4em;
+}
+
+@media screen and (max-width: 588px) {
+  .footer-links:nth-child(2) {
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.humber-logo--footer {
+  -webkit-flex-basis: 10em;
+      -ms-flex-preferred-size: 10em;
+          flex-basis: 10em;
+}
+
+.humber-logo--footer:hover {
+  opacity: .6;
+}
+
+/*=====  End of FOOTER STYLES  ======*/
 /* INTRO VIDEO SECTION */
 #intro .overlay {
   height: 100%;
@@ -279,7 +320,9 @@ a.current-link {
   color: #fea9cc;
 }
 
-/* MAIN CONTENT SECTION STYLES */
+/*===========================================
+=            MAIN CONTENT STYLES            =
+===========================================*/
 .main {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
@@ -293,6 +336,7 @@ a.current-link {
   width: 90%;
 }
 
+/*=====  End of MAIN CONTENT STYLES  ======*/
 /* Course Objectives Styles */
 .dev-icons {
   min-width: 15em;
@@ -432,6 +476,12 @@ caption {
   color: #9badb6;
   text-transform: capitalize;
   font-weight: 700;
+}
+
+#contact-form ::-webkit-input-placeholder:after {
+  content: '*';
+  color: #f36d89;
+  margin-left: 0.4em;
 }
 
 #contact-form input[type="submit"] {

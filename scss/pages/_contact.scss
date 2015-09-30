@@ -54,6 +54,11 @@
   color: $color-text--light;
   text-transform: capitalize;
   font-weight: $font-weight--bold;
+    &:after{
+      content: '*';
+      color: $color-warn;
+      margin-left: 0.4em;
+    }
   }
 
   input[type="submit"]{

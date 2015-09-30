@@ -1,15 +1,19 @@
-/* FOOTER STYLES */
+/*=====================================
+=            FOOTER STYLES            =
+=====================================*/
+
 
 #footer{
   background-color: $color-footer;
-  padding: 2em 2%;
+  padding: 2em 5%;
   // width: 100%;
 }
 
 .footer-links{
   width: 100%;
+  text-align: center;
 
-  a{
+  a:not(.humber-logo--footer){
     color: tint($color-footer, 80%);
     @extend %transition-default;
 
@@ -17,13 +21,48 @@
       color: tint($color-footer, 50%);
     }
   }
-
-  ul{
-    @extend %flex;
-    @extend %flex-wrap;
-    @extend %flex-column;
-    height: 4em;
-    justify-content: space-between;
-  }
-
 }
+
+.footer__page-links{
+  @extend %flex;
+  @extend %flex-wrap;
+  @extend %flex-column;
+  height: 4em;
+  justify-content: space-between;
+
+  @media screen and (max-width: 588px){
+    margin-top: 1em;
+  }
+}
+
+.footer-links__group__items {
+    margin-left: 1em;
+    font-size: 1.5em;
+}
+
+.footer-links:nth-child(2){
+  margin-top: 4em;
+  @extend %flex;
+  @extend %flex-wrap;
+  @extend %space-between;
+
+  @media screen and (max-width: 588px){
+    justify-content: center;
+  }
+}
+
+.humber-logo--footer{
+  flex-basis: 10em;
+  @extend %transition-default;
+    &:hover{
+      opacity: .6;
+    }
+}
+
+.footer-links__group{
+  @extend %flex;
+}
+
+
+/*=====  End of FOOTER STYLES  ======*/
+
