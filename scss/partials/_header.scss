@@ -1,4 +1,6 @@
-/* HEADER STYLES */
+/*=====================================
+=            HEADER STYLES            =
+=====================================*/
 
 header{
   @extend %flex;
@@ -15,7 +17,13 @@ header{
   }
 }
 
-/* NAV STYLES */
+
+/*=====  End of HEADER STYLES  ======*/
+
+
+/*==================================
+=            NAV STYLES            =
+==================================*/
 
 nav{
   flex-basis: calc(25em + 1vw);
@@ -46,4 +54,9 @@ nav{
 a.current-link{
   color: $color-accent;
 }
+
+
+/*=====  End of NAV STYLES  ======*/
+
+
 

@@ -1,5 +1,6 @@
-/* SIDEBAR STYLES */
-
+/*======================================
+=            SIDEBAR STYLES            =
+======================================*/
 
 #sidebar{
   @extend %flex;
@@ -20,7 +21,6 @@
       color: inherit;
     }
 }
-
 
 .sidebar-menu__items{
   margin-bottom: 20px;
@@ -56,3 +56,6 @@
     }
   }
 }
+/*=====  End of SIDEBAR STYLES  ======*/
+
+

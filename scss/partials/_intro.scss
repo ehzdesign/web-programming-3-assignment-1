@@ -1,7 +1,9 @@
   
 
 
-/* INTRO VIDEO SECTION */
+/*==========================================
+=            INTRO VIDEO STYLES            =
+==========================================*/
 
 #intro {
   @extend %relative;
@@ -22,8 +24,14 @@
   }
 
 }
-/* INTRO TITLE STYLES */
 
+
+/*=====  End of INTRO VIDEO STYLES  ======*/
+
+
+/*==========================================
+=            INTRO TITLE STYLES            =
+==========================================*/
 
 .title{
   @extend %absolute;
@@ -42,7 +50,7 @@
     }
 
     span{
-      font-size: .5em;
+      font-size: .4em;
       display: block;
       font-weight: $font-weight--light;
       @extend %uppercase;
@@ -50,10 +58,16 @@
     }
 }
 
-/* LEARN MORE BUTTON STYLES */
+
+/*=====  End of INTRO TITLE STYLES  ======*/
 
 
-.learn-more{
+
+/*================================================
+=            GHOST BUTTON STYLES            =
+================================================*/
+
+.ghost-button{
   padding: 1em 2em;
   border: 2px solid $color-primary;
   border-radius: 5px;
@@ -64,3 +78,8 @@
     opacity: 0.7;
   }
 }
+
+
+/*=====  End of LEARN MORE BUTTON STYLES  ======*/
+
+

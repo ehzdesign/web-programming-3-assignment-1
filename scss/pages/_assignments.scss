@@ -1,4 +1,6 @@
-/* ASSIGNMENT SECTION STYLES STARTS */
+/*===========================================
+=            ASSIGNMENTS PAGE SECTION            =
+===========================================*/
 
 #assignments .wrapper{
   display: flex;
@@ -17,7 +19,7 @@
 }
 
 caption{
-  background-color: #FB995F;
+  background-color: $highlight-variant--1;
   border-radius: 5px;
   color: $color-primary;
   padding: 1em 0;
@@ -25,17 +27,26 @@ caption{
 }
 
 
-/* ASSIGNMENT SECTION STYLES ENDS */
-
-
-.highlight-variant--1{
-  background-color: #A18FDA;
+.assignment.table:nth-of-type(2n){
+  caption{
+    background-color: $highlight-variant--2;
+  }
 }
 
-.highlight-variant--2{
-  background-color: #5ACEDA;
+.assignment.table:nth-of-type(3n){
+  caption{
+    background-color: $highlight-variant--3;
+  }
 }
 
-.highlight-variant--3{
-  background-color: #FD8484;
+.assignment.table:nth-of-type(4n){
+  caption{
+    background-color: $highlight-variant--4;
+  }
 }
+
+/*=====  End of ASSIGNMENTS PAGE SECTION  ======*/
+
+
+
+

@@ -88,6 +88,9 @@ td, th {
 }
 
 /*=====  End of BASE STYLES  ======*/
+/*==============================================
+=            BASE TYPOGRAPHY STYLES            =
+==============================================*/
 body {
   font-family: "Nunito", Arial, Tahoma, sans-serif;
   font-weight: 300;
@@ -106,7 +109,10 @@ p {
   font-weight: 300;
 }
 
-/* HEADER STYLES */
+/*=====  End of BASE TYPOGRAPHY STYLES  ======*/
+/*=====================================
+=            HEADER STYLES            =
+=====================================*/
 header {
   padding: 0 2%;
   border-bottom: 2px solid #53bbb4;
@@ -119,7 +125,10 @@ header .logo a {
   color: #53bbb4;
 }
 
-/* NAV STYLES */
+/*=====  End of HEADER STYLES  ======*/
+/*==================================
+=            NAV STYLES            =
+==================================*/
 nav {
   -webkit-flex-basis: calc(25em + 1vw);
       -ms-flex-preferred-size: calc(25em + 1vw);
@@ -149,6 +158,7 @@ a.current-link {
   color: #53bbb4;
 }
 
+/*=====  End of NAV STYLES  ======*/
 /*=====================================
 =            FOOTER STYLES            =
 =====================================*/
@@ -211,7 +221,9 @@ a.current-link {
 }
 
 /*=====  End of FOOTER STYLES  ======*/
-/* INTRO VIDEO SECTION */
+/*==========================================
+=            INTRO VIDEO STYLES            =
+==========================================*/
 #intro .overlay {
   height: 100%;
   width: 100%;
@@ -225,7 +237,10 @@ a.current-link {
   display: block;
 }
 
-/* INTRO TITLE STYLES */
+/*=====  End of INTRO VIDEO STYLES  ======*/
+/*==========================================
+=            INTRO TITLE STYLES            =
+==========================================*/
 .title {
   color: #fff;
   z-index: 20;
@@ -239,14 +254,17 @@ a.current-link {
 }
 
 .title span {
-  font-size: .5em;
+  font-size: .4em;
   display: block;
   font-weight: 300;
   padding-left: 1%;
 }
 
-/* LEARN MORE BUTTON STYLES */
-.learn-more {
+/*=====  End of INTRO TITLE STYLES  ======*/
+/*================================================
+=            GHOST BUTTON STYLES            =
+================================================*/
+.ghost-button {
   padding: 1em 2em;
   border: 2px solid #fff;
   border-radius: 5px;
@@ -254,11 +272,14 @@ a.current-link {
   transition: opacity 0.3s ease;
 }
 
-.learn-more:hover {
+.ghost-button:hover {
   opacity: 0.7;
 }
 
-/* SIDEBAR STYLES */
+/*=====  End of LEARN MORE BUTTON STYLES  ======*/
+/*======================================
+=            SIDEBAR STYLES            =
+======================================*/
 #sidebar {
   font-size: 1.2em;
   padding: 100px 3%;
@@ -306,7 +327,10 @@ a.current-link {
   color: #6AB8E6;
 }
 
-/* TABLE STYLES */
+/*=====  End of SIDEBAR STYLES  ======*/
+/*====================================
+=            TABLE STYLES            =
+====================================*/
 .table {
   border: 2px solid #c3ced3;
   border-collapse: initial;
@@ -320,6 +344,7 @@ a.current-link {
   color: #fea9cc;
 }
 
+/*=====  End of TABLE STYLES  ======*/
 /*===========================================
 =            MAIN CONTENT STYLES            =
 ===========================================*/
@@ -337,14 +362,19 @@ a.current-link {
 }
 
 /*=====  End of MAIN CONTENT STYLES  ======*/
-/* Course Objectives Styles */
+/*===============================================
+=            COURSE OBJECTIVE PAGE STYLES            =
+===============================================*/
 .dev-icons {
   min-width: 15em;
   max-width: 40%;
   margin-top: 4em;
 }
 
-/* SCHEDULE PAGE STYLES */
+/*=====  End of COURSE OBJECTIVE PAGE STYLES  ======*/
+/*============================================
+=            SCHEDULE PAGE STYLES            =
+============================================*/
 #schedule .wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -379,7 +409,10 @@ a.current-link {
   margin-right: .3em;
 }
 
-/* ASSIGNMENT SECTION STYLES STARTS */
+/*=====  End of SCHEDULE PAGE STYLES  ======*/
+/*===========================================
+=            ASSIGNMENTS PAGE SECTION            =
+===========================================*/
 #assignments .wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -406,20 +439,22 @@ caption {
   margin-bottom: 5px;
 }
 
-/* ASSIGNMENT SECTION STYLES ENDS */
-.highlight-variant--1 {
+.assignment.table:nth-of-type(2n) caption {
   background-color: #A18FDA;
 }
 
-.highlight-variant--2 {
+.assignment.table:nth-of-type(3n) caption {
   background-color: #5ACEDA;
 }
 
-.highlight-variant--3 {
+.assignment.table:nth-of-type(4n) caption {
   background-color: #FD8484;
 }
 
-/* CONTACT FORM STYLES */
+/*=====  End of ASSIGNMENTS PAGE SECTION  ======*/
+/*==============================================
+=            CONTACT PAGE STYLES            =
+==============================================*/
 .contact-info span {
   color: #53bbb4;
 }
@@ -498,8 +533,9 @@ caption {
   background-color: #429690;
 }
 
+/*=====  End of CONTACT PAGE STYLES  ======*/
 /*========================================
-=            RESOURCES STYLES            =
+=            RESOURCES PAGE STYLES            =
 ========================================*/
 .resources-list-group {
   margin-top: 5em;
@@ -544,4 +580,4 @@ caption {
   color: #b59dfd;
 }
 
-/*=====  End of RESOURCES STYLES  ======*/
+/*=====  End of RESOURCES PAGE STYLES  ======*/
