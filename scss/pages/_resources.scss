@@ -1,0 +1,52 @@
+/*========================================
+=            RESOURCES STYLES            =
+========================================*/
+.resources-list-group{
+  margin-top: 5em;
+}
+
+.resources__list{
+  margin-bottom: 3em;
+}
+.resources__list__title{
+  color: $color-highlight--pink;
+  font-weight: $font-weight--normal;
+}
+
+.resources__list__items{
+  color: $color-text--light;
+  @extend %transition-default;
+  &:hover{
+    color: tint($color-highlight--pink, 20%);
+  }
+  &:before{
+    content: '■';
+    margin-right: 1em;
+    color: tint($color-highlight--pink, 20%);
+  }
+}
+
+.resources__list:nth-of-type(2n){
+  .resources__list__title{
+    color: $color-highlight--blue;
+  }
+  .resources__list__items{
+    &:hover, &:before{
+      color: tint($color-highlight--blue, 20%);
+    }
+  }
+}
+
+.resources__list:nth-of-type(3n){
+  .resources__list__title{
+    color: $color-highlight--purple;
+  }
+  .resources__list__items{
+    &:hover, &:before{
+      color: tint($color-highlight--purple, 20%);
+    }
+  }
+}
+
+
+/*=====  End of RESOURCES STYLES  ======*/

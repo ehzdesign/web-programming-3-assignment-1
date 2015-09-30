@@ -36,7 +36,7 @@ header, .main-nav, .footer-links:nth-child(2) {
 }
 
 .main-nav a,
-.logo a, .footer-links a:not(.humber-logo--footer), .humber-logo--footer, .sidebar-menu__items, #contact-form input[type="submit"] {
+.logo a, .footer-links a:not(.humber-logo--footer), .humber-logo--footer, .sidebar-menu__items, #contact-form input[type="submit"], .resources__list__items {
   transition: all 0.3s ease;
 }
 
@@ -497,3 +497,51 @@ caption {
 #contact-form input[type="submit"]:hover {
   background-color: #429690;
 }
+
+/*========================================
+=            RESOURCES STYLES            =
+========================================*/
+.resources-list-group {
+  margin-top: 5em;
+}
+
+.resources__list {
+  margin-bottom: 3em;
+}
+
+.resources__list__title {
+  color: #FD84B6;
+  font-weight: 400;
+}
+
+.resources__list__items {
+  color: #9badb6;
+}
+
+.resources__list__items:hover {
+  color: #fd9dc5;
+}
+
+.resources__list__items:before {
+  content: '■';
+  margin-right: 1em;
+  color: #fd9dc5;
+}
+
+.resources__list:nth-of-type(2n) .resources__list__title {
+  color: #6AB8E6;
+}
+
+.resources__list:nth-of-type(2n) .resources__list__items:hover, .resources__list:nth-of-type(2n) .resources__list__items:before {
+  color: #88c6eb;
+}
+
+.resources__list:nth-of-type(3n) .resources__list__title {
+  color: #A284FD;
+}
+
+.resources__list:nth-of-type(3n) .resources__list__items:hover, .resources__list:nth-of-type(3n) .resources__list__items:before {
+  color: #b59dfd;
+}
+
+/*=====  End of RESOURCES STYLES  ======*/
