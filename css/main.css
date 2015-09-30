@@ -87,14 +87,14 @@ td, th {
 body {
   font-family: "Nunito", Arial, Tahoma, sans-serif;
   font-weight: 300;
-  color: #90A4AE;
+  color: #9badb6;
   line-height: 1.6;
 }
 
 h1,
 h2,
 h3 {
-  color: #899ca5;
+  color: #8c9ca4;
   font-weight: 700;
 }
 
@@ -133,7 +133,7 @@ nav {
 
 .main-nav a,
 .logo a {
-  color: #90A4AE;
+  color: #9badb6;
 }
 
 .main-nav a:hover,
@@ -267,7 +267,7 @@ a.current-link {
 
 /* TABLE STYLES */
 .table {
-  border: 2px solid #bcc8ce;
+  border: 2px solid #c3ced3;
   border-collapse: initial;
   border-radius: 5px;
   text-align: left;
@@ -293,6 +293,13 @@ a.current-link {
   width: 90%;
 }
 
+/* Course Objectives Styles */
+.dev-icons {
+  min-width: 15em;
+  max-width: 40%;
+  margin-top: 4em;
+}
+
 /* SCHEDULE PAGE STYLES */
 #schedule .wrapper {
   display: -webkit-flex;
@@ -301,7 +308,7 @@ a.current-link {
 }
 
 .first-word {
-  font-size: 1.1em;
+  font-size: 1.4em;
   font-weight: bold;
 }
 
@@ -315,7 +322,7 @@ a.current-link {
 }
 
 .schedule tr:nth-child(even) {
-  background-color: #f4f6f7;
+  background-color: #f5f7f8;
 }
 
 .schedule td:nth-child(2) {
@@ -344,7 +351,7 @@ a.current-link {
 }
 
 .assignment tr:first-of-type {
-  background-color: #f4f6f7;
+  background-color: #f5f7f8;
 }
 
 caption {
@@ -403,7 +410,7 @@ caption {
       -ms-flex: 1 0 40%;
           flex: 1 0 40%;
   padding: 2em 1em;
-  border: 2px solid #d3dbdf;
+  border: 2px solid #d7dee2;
   border-radius: 5px;
   outline: none;
 }
@@ -422,7 +429,7 @@ caption {
 }
 
 #contact-form ::-webkit-input-placeholder {
-  color: #90A4AE;
+  color: #9badb6;
   text-transform: capitalize;
   font-weight: 700;
 }

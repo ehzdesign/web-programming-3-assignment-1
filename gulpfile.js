@@ -10,6 +10,9 @@ var gulp           = require('gulp'),
     reload         = browserSync.reload,
     autoprefixer   = require('gulp-autoprefixer'),
     sass           = require('gulp-sass');
+    devip          = require('dev-ip');
+
+    devip();
 
 // =======================================
 // SCRIPTS

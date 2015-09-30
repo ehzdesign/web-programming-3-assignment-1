@@ -23,8 +23,8 @@ $font-weight--normal    : 400;
 $font-weight--bold      : 700;
 
 //FONT COLORS
-$color-text--light: $blue-grey;
-$color-text--dark:  shade($color-text--light, 5%);
+$color-text--light: tint($blue-grey, 10%);
+$color-text--dark:  shade($color-text--light, 10%);
 
 // FUNCTIONAL NAMED COLORS
 $color-primary            :$white;
