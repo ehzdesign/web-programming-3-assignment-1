@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 69 97.4" style="enable-background:new 0 0 69 97.4;" xml:space="preserve">
+	 viewBox="0 0 186.2 262.9" style="enable-background:new 0 0 186.2 262.9;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#131313;}
 	.st1{fill:#1572B6;}
@@ -9,21 +9,22 @@
 	.st3{fill:#FFFFFF;}
 	.st4{fill:#EBEBEB;}
 </style>
-<g id="XMLID_1_">
+<g id="XMLID_14_">
 	<title>Slice 1</title>
 	<description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
 	<g id="Page_1_1_">
 		<g id="Layer_1_2_">
-			<path id="Shape_15_" class="st0" d="M54.1,3.6h-5.7l6,6.5v3.1H42V9.5h6l-6-6.5V0h12V3.6L54.1,3.6z M39.6,3.6h-5.7l6,6.5v3.1H27.6
-				V9.5h6l-6-6.5V0h12V3.6L39.6,3.6z M25.3,3.8h-6.2v5.6h6.2v3.8H14.7V0h10.6V3.8L25.3,3.8z"/>
-			<path id="Shape_14_" class="st1" d="M6.3,89.6L0,19.1h69l-6.3,70.4l-28.3,7.8L6.3,89.6z"/>
-			<path id="Shape_13_" class="st2" d="M34.5,91.4l22.8-6.3l5.4-60.2H34.5V91.4z"/>
+			<path id="Shape_15_" class="st0" d="M145.9,9.7h-15.5l16.1,17.4v8.3h-33.1v-9.7h16.1L113.5,8.3V0h32.5V9.7L145.9,9.7z M106.9,9.7
+				H91.4l16.1,17.4v8.3H74.4v-9.7h16.1L74.4,8.3V0h32.5V9.7L106.9,9.7z M68.2,10.1H51.5v15.2h16.7v10.1H39.7V0h28.5V10.1L68.2,10.1z
+				"/>
+			<path id="Shape_14_" class="st1" d="M17,241.8L0,51.7h186.2l-17,190.1L93,262.9L17,241.8z"/>
+			<path id="Shape_13_" class="st2" d="M93.1,246.7l61.6-17.1l14.5-162.4H93.1V246.7z"/>
 			<g id="Group_1_" transform="translate(55.000000, 142.000000)">
-				<path id="Shape_12_" class="st3" d="M-20.5-91.6h11.4l0.8-8.8h-12.2v-8.6h0H1.2L1-106.7l-2.1,23.8h-19.3V-91.6z"/>
-				<path id="Shape_11_" class="st4" d="M-20.4-69.1L-20.4-69.1l-9.7-2.6l-0.6-6.9h-4.7h-4l1.2,13.6l17.7,4.9l0,0V-69.1z"/>
-				<path id="Shape_10_" class="st3" d="M-9.8-83.3l-1,11.6l-9.6,2.6v9L-2.8-65l0.1-1.5l1.5-16.8H-9.8z"/>
-				<path id="Shape_9_" class="st4" d="M-20.5-109.1v5.4v3.3v0h-20.8h0l-0.2-1.9l-0.4-4.4l-0.2-2.3H-20.5z"/>
-				<path id="Shape_8_" class="st4" d="M-20.5-91.6v5.4v3.3v0H-30h0l-0.2-1.9l-0.4-4.4l-0.2-2.3H-20.5z"/>
+				<path id="Shape_12_" class="st3" d="M38.1-5.9H69l2.1-23.9h-33v-23.3h0.1h58.4L96-46.8l-5.7,64.3H38.1V-5.9z"/>
+				<path id="Shape_11_" class="st4" d="M38.3,54.7l-0.1,0l-26-7l-1.7-18.6H-2.1h-10.8l3.3,36.6l47.8,13.3l0.1,0V54.7z"/>
+				<path id="Shape_10_" class="st3" d="M67,16.4l-2.8,31.2l-26,7v24.3L86,65.7l0.4-3.9l4.1-45.3H67z"/>
+				<path id="Shape_9_" class="st4" d="M38.2-53.1v14.5v8.8v0.1H-18h-0.1l-0.5-5.2l-1.1-11.8l-0.6-6.3H38.2z"/>
+				<path id="Shape_8_" class="st4" d="M38.1-5.9V8.6v8.8v0.1H12.6h-0.1L12,12.2L11,0.4l-0.6-6.3H38.1z"/>
 			</g>
 		</g>
 	</g>
