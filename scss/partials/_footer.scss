@@ -11,7 +11,7 @@
 
 .footer-links{
   width: 100%;
-  text-align: center;
+  @extend %center-text;
 
   a:not(.humber-logo--footer){
     color: tint($color-footer, 80%);
@@ -42,7 +42,6 @@
 }
 
 .footer-links__group__items {
-    // margin-left: 1em;
     font-size: 1.5em;
 }
 
@@ -68,7 +67,7 @@
 
 .footer-links__group{
   @extend %flex;
-  justify-content: space-between;
+  @extend %space-between;
   width: 15em;
 }
 

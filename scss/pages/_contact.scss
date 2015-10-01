@@ -17,17 +17,18 @@
 #contact-form{
   width: 80%;
   align-self: center;
-  flex-wrap: wrap;
+  @extend %flex-wrap;
   @extend %flex;
   margin: 4em 0;
 
   h2{
     flex-basis: 100%;
     @extend %center-text;
+    @extend %border-radius;
     background-color: $color-warn;
     color: $color-primary;
     padding: 1.5em 0;
-    border-radius: 5px;
+    
   }
 
   input:nth-child(2){
@@ -38,7 +39,7 @@
     flex: 1 0 40%;
     padding: 2em 1em;
     border: 2px solid tint($color-text--light, 60%);
-    border-radius: 5px;
+    @extend %border-radius;
     outline: none;
 
     &:focus{

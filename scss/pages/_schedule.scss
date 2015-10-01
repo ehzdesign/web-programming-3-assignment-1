@@ -4,7 +4,6 @@
 
 
 #schedule .wrapper{
-  display: flex;
   @extend %flex;
   @extend %flex-column;
 }
@@ -12,7 +11,7 @@
 
 .first-word{
   font-size: 1.4em;
-  font-weight: bold;
+  font-weight: $font-weight--bold;
 }
 
 .schedule{
@@ -41,7 +40,7 @@
   &:before{
     content: '*';
     color: $color-warn;
-    margin-right: .3em;
+    margin-right: 0.3em;
   }
 }
 

@@ -11,7 +11,7 @@
 .table{
   border: 2px solid tint($color-text--light, 40%);
   border-collapse: initial;
-  border-radius: 5px;
+  @extend %border-radius;
   text-align: left;
   text-transform: capitalize;
   margin-top: 3em;

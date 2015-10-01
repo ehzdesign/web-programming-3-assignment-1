@@ -23,20 +23,20 @@ header {
           align-items: center;
 }
 
-.footer__page-links {
+.footer__page-links, #contact-form {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
 }
 
-header, .main-nav {
+header, .main-nav, .footer-links__group {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 .main-nav a,
-.logo a, .footer-links a:not(.humber-logo--footer), .humber-logo--footer, .sidebar-menu__items, #contact-form input[type="submit"], .resources__list__items {
+.logo a, .footer-links a:not(.humber-logo--footer), .humber-logo--footer, .sidebar-menu__items, .list__items, #contact-form input[type="submit"] {
   transition: all 0.3s ease;
 }
 
@@ -52,8 +52,12 @@ header, .main-nav {
   position: absolute;
 }
 
-#contact-form h2 {
+.footer-links, #contact-form h2 {
   text-align: center;
+}
+
+.table, #contact-form h2, #contact-form input, #contact-form textarea {
+  border-radius: 5px;
 }
 
 /*===================================
@@ -169,7 +173,6 @@ a.current-link {
 
 .footer-links {
   width: 100%;
-  text-align: center;
 }
 
 .footer-links a:not(.humber-logo--footer) {
@@ -226,9 +229,6 @@ a.current-link {
 }
 
 .footer-links__group {
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   width: 15em;
 }
 
@@ -346,7 +346,6 @@ a.current-link {
 .table {
   border: 2px solid #c3ced3;
   border-collapse: initial;
-  border-radius: 5px;
   text-align: left;
   text-transform: capitalize;
   margin-top: 3em;
@@ -374,6 +373,61 @@ a.current-link {
 }
 
 /*=====  End of MAIN CONTENT STYLES  ======*/
+/*========================================
+=            LIST PAGE STYLES            =
+========================================*/
+.list-group {
+  margin-top: 5em;
+}
+
+.list {
+  margin-bottom: 3em;
+}
+
+.list__title {
+  color: #FD84B6;
+  font-weight: 400;
+}
+
+.list__items {
+  color: #9badb6;
+}
+
+.list__items:hover {
+  color: #fd9dc5;
+}
+
+.list__items:before {
+  content: '■';
+  margin-right: 1em;
+  color: #fd9dc5;
+}
+
+.list:nth-of-type(2n) .list__title {
+  color: #6AB8E6;
+}
+
+.list:nth-of-type(2n) .list__items:hover, .list:nth-of-type(2n) .list__items:before {
+  color: #88c6eb;
+}
+
+.list:nth-of-type(3n) .list__title {
+  color: #A284FD;
+}
+
+.list:nth-of-type(3n) .list__items:hover, .list:nth-of-type(3n) .list__items:before {
+  color: #b59dfd;
+}
+
+.list:nth-of-type(4n) .list__title {
+  color: #FB995F;
+}
+
+.list:nth-of-type(4n) .list__items:hover, .list:nth-of-type(4n) .list__items:before {
+  color: #fcad7f;
+}
+
+/*=====  End of LIST PAGE STYLES  ======*/
 /*===============================================
 =            COURSE OBJECTIVE PAGE STYLES            =
 ===============================================*/
@@ -387,15 +441,9 @@ a.current-link {
 /*============================================
 =            SCHEDULE PAGE STYLES            =
 ============================================*/
-#schedule .wrapper {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .first-word {
   font-size: 1.4em;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .schedule th {
@@ -418,7 +466,7 @@ a.current-link {
 #note:before {
   content: '*';
   color: #f36d89;
-  margin-right: .3em;
+  margin-right: 0.3em;
 }
 
 /*=====  End of SCHEDULE PAGE STYLES  ======*/
@@ -476,9 +524,6 @@ caption {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
   margin: 4em 0;
 }
 
@@ -489,7 +534,6 @@ caption {
   background-color: #f36d89;
   color: #fff;
   padding: 1.5em 0;
-  border-radius: 5px;
 }
 
 #contact-form input:nth-child(2) {
@@ -502,7 +546,6 @@ caption {
           flex: 1 0 40%;
   padding: 2em 1em;
   border: 2px solid #d7dee2;
-  border-radius: 5px;
   outline: none;
 }
 
@@ -546,58 +589,3 @@ caption {
 }
 
 /*=====  End of CONTACT PAGE STYLES  ======*/
-/*========================================
-=            RESOURCES PAGE STYLES            =
-========================================*/
-.resources-list-group {
-  margin-top: 5em;
-}
-
-.resources__list {
-  margin-bottom: 3em;
-}
-
-.resources__list__title {
-  color: #FD84B6;
-  font-weight: 400;
-}
-
-.resources__list__items {
-  color: #9badb6;
-}
-
-.resources__list__items:hover {
-  color: #fd9dc5;
-}
-
-.resources__list__items:before {
-  content: '■';
-  margin-right: 1em;
-  color: #fd9dc5;
-}
-
-.resources__list:nth-of-type(2n) .resources__list__title {
-  color: #6AB8E6;
-}
-
-.resources__list:nth-of-type(2n) .resources__list__items:hover, .resources__list:nth-of-type(2n) .resources__list__items:before {
-  color: #88c6eb;
-}
-
-.resources__list:nth-of-type(3n) .resources__list__title {
-  color: #A284FD;
-}
-
-.resources__list:nth-of-type(3n) .resources__list__items:hover, .resources__list:nth-of-type(3n) .resources__list__items:before {
-  color: #b59dfd;
-}
-
-.resources__list:nth-of-type(4n) .resources__list__title {
-  color: #FB995F;
-}
-
-.resources__list:nth-of-type(4n) .resources__list__items:hover, .resources__list:nth-of-type(4n) .resources__list__items:before {
-  color: #fcad7f;
-}
-
-/*=====  End of RESOURCES PAGE STYLES  ======*/

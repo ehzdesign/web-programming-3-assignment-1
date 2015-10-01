@@ -1,19 +1,19 @@
 /*========================================
-=            RESOURCES PAGE STYLES            =
+=            LIST PAGE STYLES            =
 ========================================*/
-.resources-list-group{
+.list-group{
   margin-top: 5em;
 }
 
-.resources__list{
+.list{
   margin-bottom: 3em;
 }
-.resources__list__title{
+.list__title{
   color: $color-highlight--pink;
   font-weight: $font-weight--normal;
 }
 
-.resources__list__items{
+.list__items{
   color: $color-text--light;
   @extend %transition-default;
   &:hover{
@@ -26,33 +26,33 @@
   }
 }
 
-.resources__list:nth-of-type(2n){
-  .resources__list__title{
+.list:nth-of-type(2n){
+  .list__title{
     color: $color-highlight--blue;
   }
-  .resources__list__items{
+  .list__items{
     &:hover, &:before{
       color: tint($color-highlight--blue, 20%);
     }
   }
 }
 
-.resources__list:nth-of-type(3n){
-  .resources__list__title{
+.list:nth-of-type(3n){
+  .list__title{
     color: $color-highlight--purple;
   }
-  .resources__list__items{
+  .list__items{
     &:hover, &:before{
       color: tint($color-highlight--purple, 20%);
     }
   }
 }
 
-.resources__list:nth-of-type(4n){
-  .resources__list__title{
+.list:nth-of-type(4n){
+  .list__title{
     color: $highlight-variant--1;
   }
-  .resources__list__items{
+  .list__items{
     &:hover, &:before{
       color: tint($highlight-variant--1, 20%);
     }
@@ -60,4 +60,4 @@
 }
 
 
-/*=====  End of RESOURCES PAGE STYLES  ======*/
+/*=====  End of LIST PAGE STYLES  ======*/
