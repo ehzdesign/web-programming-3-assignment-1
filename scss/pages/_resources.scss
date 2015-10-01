@@ -48,5 +48,16 @@
   }
 }
 
+.resources__list:nth-of-type(4n){
+  .resources__list__title{
+    color: $highlight-variant--1;
+  }
+  .resources__list__items{
+    &:hover, &:before{
+      color: tint($highlight-variant--1, 20%);
+    }
+  }
+}
+
 
 /*=====  End of RESOURCES PAGE STYLES  ======*/
